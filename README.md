@@ -29,7 +29,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
 -  [Risman](https://github.com/mrismanaziz) for [PyroMan-Userbot](https://github.com/mrismanaziz/PyroMan-Userbot)
--  [Ling](https://github.com/Ling-ex) for [Hyper-Userbot](https://github.com/Ling-ex/Hyper)
+
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/PyroMan-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [TeamDerUntergang](https://github.com/TeamDerUntergang/Telegram-SedenUserBot) : SedenUserBot
