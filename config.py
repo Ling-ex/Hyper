@@ -6,7 +6,7 @@
 # <https://www.github.com/Ling-ex/Hyper/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
-# t.me/HyperSupportQ & t.me/storyQi 
+# t.me/HyperSupportQ & t.me/storyQi
 
 from os import getenv
 
