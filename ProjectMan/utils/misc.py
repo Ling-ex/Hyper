@@ -1,11 +1,12 @@
-# Credits: @mrismanaziz
-# Copyright (C) 2022 Pyro-ManUserbot
+# Credits: @mrismanaziz & @excute7
+# Copyright (C) 2022 Hyper-Userbot
 #
 # This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
+# t.me/HyperSupportQ & t.me/storyQi
 
 import os
 import sys
