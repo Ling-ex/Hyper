@@ -1,6 +1,6 @@
 {
-  "name": "PyroMan-Userbot",
-  "description": "[PyroMan-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
+  "name": "Hyper-Userbot",
+  "description": "[Hyper-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
