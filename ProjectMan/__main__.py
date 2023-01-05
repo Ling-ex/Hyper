@@ -1,11 +1,12 @@
-# Credits: @mrismanaziz
-# Copyright (C) 2022 Pyro-ManUserbot
+# Credits: @mrismanaziz & @excute7
+# Copyright (C) 2022 Hyper-Userbot
 #
-# This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
+# This file is a part of < https://github.com/Ling-ex/Hyper/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
+# <https://www.github.com/Ling-ex/Hyper/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
+# t.me/HyperSupportQ & t.me/storyQi
 
 import importlib
 
@@ -18,7 +19,7 @@ from ProjectMan.helpers.misc import create_botlog, heroku
 from ProjectMan.modules import ALL_MODULES
 
 MSG_ON = """
-🔥 **PyroMan-Userbot Berhasil Di Aktifkan**
+🔥 **Hyper-Userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
@@ -33,8 +34,8 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("Lunatic0de")
-            await bot.join_chat("SharingUserbot")
+            await bot.join_chat("storyQi")
+            await bot.join_chat("HyperSupportQ")
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER)
@@ -46,7 +47,7 @@ async def main():
             )
         except Exception as a:
             LOGGER("main").warning(a)
-    LOGGER("ProjectMan").info(f"PyroMan-UserBot v{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+    LOGGER("ProjectMan").info(f"Hyper-UserBot v{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
     if bot1 and not str(BOTLOG_CHATID).startswith("-100"):
         await create_botlog(bot1)
     await idle()
@@ -54,7 +55,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("ProjectMan").info("Starting PyroMan-UserBot")
+    LOGGER("ProjectMan").info("Starting Hyper-UserBot")
     install()
     heroku()
     LOOP.run_until_complete(main())
